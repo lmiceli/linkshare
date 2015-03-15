@@ -1,15 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Linkshare Sender</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <link href="../js/libs/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
-  </head>
-  <body>
-    <h1>Linkshare Sender</h1>
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script type="text/javascript" src="../js/libs/twitter-bootstrap/js/bootstrap.js"></script>
-<!--    <script src="js/bootstrap.min.js"></script>-->
-  </body>
+    <head>
+        <title>Linkshare Sender</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap -->
+        <link href="../js/libs/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+    </head>
+    <body>
+        <h1>Linkshare Sender</h1>
+        <h1>TODO: receiver will write to a dropbox file by using node js on my linux box, for now this will be done by just editing a file and pluging the links there (no timestamp, just remove old links)</h1>
+        
+        <form role="form">
+            <div class="form-group">
+                <label for="link">Add link</label>
+                <input type="text" class="form-control" id="link">
+            </div>
+<!--            <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd">
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox"> Remember me</label>
+            </div>-->
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        
+        
+        <script src="http://code.jquery.com/jquery.js"></script>
+        <script type="text/javascript" src="../js/libs/twitter-bootstrap/js/bootstrap.js"></script>
+        <!--    <script src="js/bootstrap.min.js"></script>-->
+    </body>
 </html>
